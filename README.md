@@ -3,13 +3,13 @@
 
 ###Technologies Used
 
-* Node.js
-* Express.js
-* Socket.io
-* Webpack
-* ReactJS
-* Material-UI
-* Bootstrap
+* [Node.js](https://nodejs.org)
+* [Express.js](http://expressjs.com/)
+* [Socket.io](http://socket.io/)
+* [Webpack](https://webpack.github.io/)
+* [ReactJS](https://facebook.github.io/react/)
+* [Material-UI](http://www.material-ui.com/#/)
+* [Bootstrap](getbootstrap.com)
 
 ###Why?
 
