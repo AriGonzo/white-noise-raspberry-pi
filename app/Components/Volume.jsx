@@ -3,6 +3,7 @@ import Slider from 'material-ui/Slider'
 
 export default class Volume extends React.Component {
     render(){
+      let style = {"marginBottom": "35px"}
         return (
               <Slider
                   value={this.props.volume}
@@ -10,6 +11,8 @@ export default class Volume extends React.Component {
                   min={0}
                   step={10}
                   onChange={this.props.volumeChange}
+                  style={style}
+                  className="sliderElement"
               />
         );
     }

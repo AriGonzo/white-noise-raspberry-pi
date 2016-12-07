@@ -36,7 +36,7 @@ export default class TrackSelectBar extends React.Component {
 		var IconBar = Object.keys(trackObj).map((b) => {
 			let classNames = `material-icons ${trackObj[b].icon}`
 			let activeClassDiv = "col-xs-4 text-center " + this.isActive(trackObj[b].id) 
-			const iconStyle = { fontSize: '40pt'}
+			const iconStyle = { fontSize: '40pt', color: "grey"}
 			let buttonStyle = {width: "30%", height: "85px", borderRadius: '50%'}
 			return (
 					<div key={trackObj[b].id} className={activeClassDiv} onClick={()=>this.props.trackChange(trackObj[b])}>

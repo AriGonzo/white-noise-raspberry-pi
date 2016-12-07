@@ -5,8 +5,8 @@ import FlatButton from 'material-ui/FlatButton';
 export default class PlayButton extends React.Component {
 
     render(){
-      let buttonStyle = {width: "100%", height: "85px"}
-      const iconStyle = { fontSize: '65pt'}
+      let buttonStyle = {width: "100%", height: "115px"}
+      const iconStyle = { fontSize: '90pt', color: "rgba(75, 162, 142, 0.870588)"}
       if (!this.props.playing) {
         return (
               <FlatButton

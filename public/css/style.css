@@ -1,6 +1,7 @@
 /*Body*/
 body {
 	background-color: #EEE;
+	margin-top: 35px;
 }
 .container {
     margin-top: 30px;
@@ -12,7 +13,6 @@ body {
 /*Track Bar Icons*/
 .trackBarRow {
     font-size: 40pt;
-    margin-bottom: 20px;
     position: relative;
 }
 
@@ -30,11 +30,13 @@ body {
 
 #trackImg {
     position: absolute;
-    bottom: 100px;
+    bottom: 90px;
     left: 0;right: 0;
     margin: auto;
-    height: 350px;
-    width: 345px;
+    margin-top: 30px;
+    height: 270px;
+    width: 300px;
+    border: 3px solid rgba(75, 162, 142, 0.870588);
 }
 
 /*Audio Control Row*/
@@ -42,10 +44,15 @@ body {
 #controlRow {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
     margin: 0;
     padding: 0 30px;
+}
+
+/*Volume Control*/
+.sliderElement > div {
+	margin-bottom: 35px!important;
 }
 
 /*Slider CSS*/

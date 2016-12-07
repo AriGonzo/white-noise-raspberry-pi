@@ -10,7 +10,8 @@ import Main from './Components/Main.jsx'
 
 const muiTheme = getMuiTheme({
   slider: {
-    handleSize: 20
+    handleSize: 20,
+    selectionColor: "rgba(75, 162, 142, 0.870588)"
   },
 });
 
